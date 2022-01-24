@@ -1,0 +1,14 @@
+
+file = open("names.txt", "w")
+name1 = "dave"
+name2 = "rave"
+name3 = "stave"
+name4 = "nave"
+name5 = "trave"
+file.write(name1)
+file.write(name2)
+file.write(name3)
+file.write(name4)
+file.write(name5)
+
+file.close()
